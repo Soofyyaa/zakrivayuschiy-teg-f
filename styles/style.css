@@ -31,6 +31,7 @@
   background-attachment: fixed;
   min-inline-size: 320px;
   min-block-size: 100dvb;
+  font-variation-settings: "wght" var(--text-weight);
 }
 
 .header {
@@ -229,8 +230,8 @@
   font-size: 14px;
 }
 
-.dialog__save-button:focus,
-.card__like-button:focus {
+.dialog__save-button:focus-visible,
+.card__like-button:focus-visible {
   box-shadow: 2px 2px var(--accent-color);
   outline: none;
   transition: box-shadow 0.3s ease;
@@ -346,7 +347,7 @@
   min-block-size: 55px;
 }
 
-.footer__button:focus {
+.footer__button:focus-visible {
   box-shadow: 4px 4px var(--accent-color);
   outline: none;
   transition: box-shadow 0.3s ease;

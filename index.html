@@ -600,13 +600,15 @@
         </svg>
         <p class="save__text">Вставьте дискету, чтобы продолжить</p>
       </div>
-      <button
-        class="dialog__save-button"
-        type="button"
-        onclick="window['dialog__save'].close()"
-      >
-        Ок
-      </button>
+      <form class="dialog__save-form" method="dialog">
+        <button
+          class="dialog__save-button"
+          type="button"
+          onclick="window['dialog__save'].close()"
+        >
+          Ок
+        </button>
+      </form>
     </dialog>
     <script src="./scripts/like.js"></script>
   </body>

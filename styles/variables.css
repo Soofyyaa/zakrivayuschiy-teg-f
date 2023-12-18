@@ -1,1 +1,16 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+
+:root {
+  --accent-color: #000;
+  --text-weight: 400;
+  --title-weight: 700;
+  --bg-color: #fff;
+  --line-color: #d3d3d3;
+  --vertical-line-1: #e7e7e7;
+  --vertical-line-2: #1a1a1a;
+  --lable-stroke: #fff;
+  --heart-color: #ff0000;
+  --card-like-button-hover: #fff;
+}
+
+

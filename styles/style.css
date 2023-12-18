@@ -368,8 +368,7 @@ dialog {
 }
 
 dialog:not([open]) {
-  opacity: 0;
-  pointer-events: none;
+  display: none;
 }
 
 dialog::backdrop {

@@ -362,6 +362,8 @@
 dialog {
   padding: 0;
   transition: opacity 0.3s ease-in-out;
+  position: fixed;
+  inset: 0;
 }
 
 dialog:not([open]) {

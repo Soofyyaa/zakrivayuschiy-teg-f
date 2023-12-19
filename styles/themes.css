@@ -17,6 +17,8 @@
   --button-text: #00cc14;
   --button-bg: #000;
   --card-like-button-hover: #00cc14;
+  --accent-text: "PressStart2P";
+  --basic-text: "Inter";
 }
 
 :root.theme-light {
@@ -30,6 +32,8 @@
   --lable-stroke: #fff;
   --heart-color: #ff0000;
   --card-like-button-hover: #fff;
+  --accent-text: "PressStart2P";
+  --basic-text: "Inter";
 }
 
 @media (prefers-color-scheme: dark) {
@@ -44,6 +48,8 @@
     --lable-stroke: #000;
     --heart-color: #ff0000;
     --card-like-button-hover: #00cc14;
+    --accent-text: "PressStart2P";
+    --basic-text: "Inter";
   }
 }
 
@@ -59,5 +65,7 @@
     --lable-stroke: #fff;
     --heart-color: #ff0000;
     --card-like-button-hover: #fff;
+    --accent-text: "PressStart2P";
+    --basic-text: "Inter";
   }
 }
